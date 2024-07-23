@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Area Calculation</h2>
+        <form>
+            <div class="inp">
+                <label>Enter length:</label>
+                <input type="text"  id="length">
+            </div>
+            <div class="inp">
+                <label>Enter breadth:</label>
+                <input type="text"  id="breadth">
+            </div>
+        </form>
+        <div class="button-container">
+            <button id="btn">Calculate</button>
+        </div>
+        <div class="display" id="result">result</div>
+        <div class="guide">
+            <p id="para1">Less area = Under 100</p>
+            <p id="para2">Avg area = 100 - 500</p>
+            <p id="para3">Large area = Above 500</p>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
